@@ -29,6 +29,8 @@
 3. Create an API to bring in the data from this table and fill in the chart.
 
 ---
+<img width="1792" alt="Screenshot 2025-05-30 at 1 38 23 PM" src="https://github.com/user-attachments/assets/e787ce9f-f01a-4cdf-be27-639d9a2061b8" />
+<img width="1792" alt="Screenshot 2025-05-30 at 1 38 52 PM" src="https://github.com/user-attachments/assets/5b9149f8-c593-4efa-9ecb-3332fb046855" />
 
 ## TechStack: 
 **React, Js, Chart.js, Material UI, MongoDB (Mongoose ORM), Tailwind CSS**
