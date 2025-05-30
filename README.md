@@ -27,3 +27,52 @@
 1. Create a sample database and create a table (any Database of your choice I.E SQL server, MY SQL, Oracle)
 2. Use the columns and the data given in the excel sheet to load the data into the database.
 3. Create an API to bring in the data from this table and fill in the chart.
+
+---
+
+## TechStack: 
+**React, Js, Chart.js, Material UI, MongoDB (Mongoose ORM), Tailwind CSS**
+
+## Specification: 
+1. Navbar have two button Home and Chat by default showing Home page dahsboard data
+2. Use React Router library for enables client-side routing in React applications.
+3. Showing Data in Card
+4. Showing Chart of data analysis
+
+## Project Structure Overview
+1. Pages and Navigation
+  - Home → Shows Dashboard Cards and Summary
+  - Chat → Shows Chart.js visualization
+- Use react-router-dom for client-side routing between pages.
+  
+2. File structure
+```
+  src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── CardGrid.jsx
+│
+├── pages/
+│   ├── Home.jsx         // Card display of metrics
+│   ├── Chat.jsx         // Chart.js visualizations
+│
+├── App.jsx              // Main Router Setup
+├── index.js
+```
+3. Chat.jsx – Multi-Axis Chart: Uses Chart.js 3.7+
+
+- Has 3 y axes: Sales (stacked), Inventory, and Percentage
+- Shows tooltips, legends, animations, and is responsive
+- Optionally: allows date range filtering or trendline
+
+## How to run code
+1. Frontend:
+   - Clone repository
+   - npm i
+   - npm run dev
+3. Backend:
+   - Clone repository
+   - npm i
+   - npm start
+
